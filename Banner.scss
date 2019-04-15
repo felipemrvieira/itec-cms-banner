@@ -1,0 +1,14 @@
+@mixin magin-top-bottom($top: 16px, $bottom: 32px){
+    margin-top: $top;
+    margin-bottom: $bottom;
+  }
+  
+  .banner-container{
+    @include magin-top-bottom();
+  
+    img{
+        width: 100%;
+        max-width: 100%;    
+    }
+  }
+  
